@@ -13,7 +13,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:raycast/recommended",
+    "plugin:@raycast/recommended",
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
