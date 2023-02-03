@@ -1,22 +1,14 @@
 {
-  "name": "eslint-config-raycast",
-  "version": "1.0.0",
+  "name": "@raycast/eslint-config-raycast",
+  "version": "0.1.0",
   "description": "ESLint configuration for Raycast extensions",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/raycast/eslint-config-raycast.git"
-  },
+  "author": "Raycast Technologies Ltd.",
   "keywords": [
     "eslint",
     "raycast"
   ],
-  "author": "raycast",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/raycast/eslint-config-raycast/issues"
-  },
-  "homepage": "https://github.com/raycast/eslint-config-raycast#readme",
+  "main": "index.js",
   "dependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
