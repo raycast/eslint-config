@@ -10,11 +10,11 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@raycast/eslint-plugin": "^1.0.5",
-    "@rushstack/eslint-patch": "^1.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint-config-prettier": "^8.3.0"
+    "@raycast/eslint-plugin": "^1.0.6",
+    "@rushstack/eslint-patch": "^1.5.1",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint-config-prettier": "^9.0.0"
   },
   "peerDependencies": {
     "eslint": ">=7",
