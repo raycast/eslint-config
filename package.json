@@ -1,6 +1,6 @@
 {
   "name": "@raycast/eslint-config",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ESLint configuration for Raycast extensions",
   "author": "Raycast Technologies Ltd.",
   "keywords": [
@@ -10,7 +10,7 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@raycast/eslint-plugin": "^1.0.8",
+    "@raycast/eslint-plugin": "^1.0.10",
     "@rushstack/eslint-patch": "^1.10.4",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
