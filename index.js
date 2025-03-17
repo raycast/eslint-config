@@ -1,20 +1,20 @@
-/**
- * @see https://github.com/eslint/eslint/issues/3458
- * @see https://www.npmjs.com/package/@rushstack/eslint-patch
- */
-require("@rushstack/eslint-patch/modern-module-resolution");
+const prettier = require("eslint-config-prettier/flat");
+const typescript = require("typescript-eslint");
+const raycast = require("@raycast/eslint-plugin");
+const js = require("@eslint/js");
+const globals = require("globals");
 
-module.exports = {
-  env: {
-    es2020: true,
-    node: true,
+module.exports = [
+  js.configs.recommended,
+  ...typescript.configs.recommended,
+  {
+    languageOptions: {
+      ecmaVersion: 2022,
+      globals: {
+        ...globals.node,
+      },
+    },
   },
-  extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:@raycast/recommended",
-  ],
-  parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
-};
+  raycast.configs.recommended,
+  prettier,
+];
