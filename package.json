@@ -1,6 +1,6 @@
 {
   "name": "@raycast/eslint-config",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "ESLint configuration for Raycast extensions",
   "author": "Raycast Technologies Ltd.",
   "keywords": [
@@ -10,11 +10,11 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@eslint/js": "^9.22.0",
-    "@raycast/eslint-plugin": "^2.0.4",
-    "eslint-config-prettier": "^10.1.1",
-    "globals": "^16.0.0",
-    "typescript-eslint": "^8.26.1"
+    "@eslint/js": "^9.36.0",
+    "@raycast/eslint-plugin": "^2.1.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.4.0",
+    "typescript-eslint": "^8.45.0"
   },
   "peerDependencies": {
     "eslint": ">=8.23.0",
